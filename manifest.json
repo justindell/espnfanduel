@@ -3,7 +3,7 @@
 
 "name": "ESPN Fanduel",
 "description": "Show Fanduel points in ESPN boxscores",
-"version": "0.0.1",
+"version": "0.0.2",
 "icons": { "128": "large.png" },
 
 "content_scripts": [
