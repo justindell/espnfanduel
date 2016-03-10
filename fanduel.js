@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  $('.mod-content table.mod-data thead tr').not('.team-color-strip').append('<th>FD</th>');
-  $('.mod-content table.mod-data tbody tr').each(function(index){
+  $('table.mod-data thead tr').not('.team-color-strip').append('<th>FD</th>');
+  $('table.mod-data tbody tr').each(function(index){
     var pts = Number($(this).find('td:nth-last-child(1)').text());
     var ast = Number($(this).find('td:nth-last-child(6)').text());
     var stl = Number($(this).find('td:nth-last-child(5)').text());
